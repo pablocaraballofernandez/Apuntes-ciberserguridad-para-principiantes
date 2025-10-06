@@ -28,12 +28,12 @@ Crear una base de conocimientos estructurada y accesible sobre ciberseguridad qu
 - [Hardware básico](./Conocimientos_necesarios_previos/Hardware_básico.md)
 
 ### Conceptos Teóricos de Ciberseguridad
-- [Conceptos de Seguridad](./Conceptos_Teóricos_de-Ciberseguridad/Conceptos_de_Seguridad.md)
-- [Terminología](./Conceptos_Teóricos_de-Ciberseguridad/Terminología.md)
-- [Respuesta a Incidentes](./Conceptos_Teóricos_de-Ciberseguridad/Respuesta_a_Incidentes.md)
-- [Amenazas](./Conceptos_Teóricos_de-Ciberseguridad/Amenazas.md)
-- [Controles de Acceso](./Conceptos_Teóricos_de-Ciberseguridad/Controles_de_Acceso.md)
-- [Definiciones](./Conceptos_Teóricos_de-Ciberseguridad/Definiciones.md)
+- [Conceptos de Seguridad](./Conceptos_Teóricos_de_Ciberseguridad/Conceptos_de_Seguridad.md)
+- [Terminología](./Conceptos_Teóricos_de_Ciberseguridad/Terminología.md)
+- [Respuesta a Incidentes](./Conceptos_Teóricos_de_Ciberseguridad/Respuesta_a_Incidentes.md)
+- [Amenazas](./Conceptos_Teóricos_de_Ciberseguridad/Amenazas.md)
+- [Controles de Acceso](./Conceptos_Teóricos_de_Ciberseguridad/Controles_de_Acceso.md)
+- [Definiciones](./Conceptos_Teóricos_de_Ciberseguridad/Definiciones.md)
 
 ### Conceptos Normativos de Ciberseguridad
 - [Marcos Normativos](./Conceptos_Normativos_de_Ciberseguridad/Marcos_Normativos.md)
