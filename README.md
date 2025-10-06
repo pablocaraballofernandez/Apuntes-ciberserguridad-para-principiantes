@@ -21,27 +21,26 @@ Crear una base de conocimientos estructurada y accesible sobre ciberseguridad qu
 ## Índice de Contenidos
 
 ### Conocimientos necesarios previos
-- [Redes informáticas](./fundamentos/introduccion.md)
-- [Aplicaciones web](./fundamentos/conceptos-basicos.md)
-- [Sistemas Operativos](./fundamentos/cia-triad.md)
-- [Introducción a Linux](./fundamentos/amenazas-vulnerabilidades.md)
-- [Hardware básico](./fundamentos/modelos-seguridad.md)
+- [Redes informáticas](./Conocimientos_necesarios_previos/Redes_Informáticas.md)
+- [Aplicaciones web](./Conocimientos_necesarios_previos/Aplicaciones_web.md)
+- [Sistemas Operativos](./Conocimientos_necesarios_previos/Sistemas_Operativos.md)
+- [Introducción a Linux](./Conocimientos_necesarios_previos/Introducción_a_Linux.md)
+- [Hardware básico](./Conocimientos_necesarios_previos/Hardware_básico.md)
 
-### Seguridad de Redes
-- [Fundamentos de Redes](./redes/fundamentos-redes.md)
-- [Protocolos de Red y Seguridad](./redes/protocolos.md)
-- [Firewalls y IDS/IPS](./redes/firewalls-ids-ips.md)
-- [VPN y Túneles Seguros](./redes/vpn.md)
-- [Seguridad en Redes Inalámbricas](./redes/wireless.md)
-- [Segmentación de Redes y VLANs](./redes/segmentacion.md)
+### Conceptos Teóricos de Ciberseguridad
+- [Conceptos de Seguridad](./Conceptos_Teóricos_de-Ciberseguridad/Conceptos_de_Seguridad.md)
+- [Terminología](./Conceptos_Teóricos_de-Ciberseguridad/Terminología.md)
+- [Respuesta a Incidentes](./Conceptos_Teóricos_de-Ciberseguridad/Respuesta_a_Incidentes.md)
+- [Amenazas](./Conceptos_Teóricos_de-Ciberseguridad/Amenazas.md)
+- [Controles de Acceso](./Conceptos_Teóricos_de-Ciberseguridad/Controles_de_Acceso.md)
+- [Definiciones](./Conceptos_Teóricos_de-Ciberseguridad/Definiciones.md)
 
-### Criptografía
-- [Fundamentos de Criptografía](./criptografia/fundamentos.md)
-- [Cifrado Simétrico](./criptografia/simetrico.md)
-- [Cifrado Asimétrico](./criptografia/asimetrico.md)
-- [Funciones Hash](./criptografia/hash.md)
-- [Certificados Digitales y PKI](./criptografia/certificados-pki.md)
-- [Protocolos Criptográficos](./criptografia/protocolos.md)
+### Conceptos Normativos de Ciberseguridad
+- [Marcos Normativos](./Conceptos_Normativos_de_Ciberseguridad/Marcos_Normativos.md)
+- [Plan de Continuidad en el Negocio](./Conceptos_Normativos_de_Ciberseguridad/Plan_de_Continuidad.md)
+- [Reglamentos](./Conceptos_Normativos_de_Ciberseguridad/Reglamentos.md)
+- [Taxonomía](./Conceptos_Normativos_de_Ciberseguridad/Taxonomía.md)
+- [Buen Gobierno](./Conceptos_Normativos_de_Ciberseguridad/Buen_Gobierno.md)
 
 ### Seguridad Defensiva
 - [Hardening de Sistemas](./defensiva/hardening.md)
