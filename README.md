@@ -156,12 +156,12 @@ Este repositorio tiene fines educativos. El uso de las técnicas y herramientas 
 
 ## Licencia
 
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](./LICENSE) para más detalles.
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](./LICENSE.md) para más detalles.
 
 ## Contacto
 
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
-- Email: tu-email@ejemplo.com
+- GitHub: [@tu-usuario](https://github.com/pablocaraballofernandez)
+- Email: pablocaraballofndz@gmail.com
 
 ---
 
@@ -177,6 +177,6 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](./LICENSE) p
 
 ---
 
-**Última actualización**: [Fecha]
+**Última actualización**: [06/10/2025]
 
 ⭐ Si este repositorio te resulta útil, considera darle una estrella!
