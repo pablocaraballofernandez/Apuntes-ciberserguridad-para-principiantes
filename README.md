@@ -4,8 +4,7 @@
 
 ![Ciberseguridad](https://img.shields.io/badge/Ciberseguridad-Apuntes-red?style=for-the-badge)
 ![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-yellow?style=for-the-badge)
-![Licencia](https://img.shields.io/badge/Licencia-MIT-blue?style=for-the-badge)
-
+![Licencia](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)
 </div>
 
 ## Descripción
