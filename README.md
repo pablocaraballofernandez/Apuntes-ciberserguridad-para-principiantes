@@ -42,7 +42,7 @@ Crear una base de conocimientos estructurada y accesible sobre ciberseguridad qu
 - [Taxonomía](./Conceptos_Normativos_de_Ciberseguridad/Taxonomía.md)
 - [Buen Gobierno](./Conceptos_Normativos_de_Ciberseguridad/Buen_Gobierno.md)
 
-### Seguridad Defensiva
+### Respuesta a Incidentes
 - [Hardening de Sistemas](./defensiva/hardening.md)
 - [Gestión de Parches](./defensiva/patch-management.md)
 - [Antivirus y Anti-malware](./defensiva/antivirus.md)
@@ -58,7 +58,7 @@ Crear una base de conocimientos estructurada y accesible sobre ciberseguridad qu
 - [Post-Explotación](./ofensiva/post-explotacion.md)
 - [Ingeniería Social](./ofensiva/ingenieria-social.md)
 
-### Seguridad Web
+### Análisis Forense
 - [OWASP Top 10](./web/owasp-top10.md)
 - [Inyección SQL](./web/sql-injection.md)
 - [Cross-Site Scripting (XSS)](./web/xss.md)
@@ -66,24 +66,16 @@ Crear una base de conocimientos estructurada y accesible sobre ciberseguridad qu
 - [Autenticación y Autorización](./web/auth.md)
 - [Seguridad en APIs](./web/api-security.md)
 
-### Cloud Security
-- [Fundamentos de Seguridad en la Nube](./cloud/fundamentos.md)
-- [AWS Security](./cloud/aws.md)
-- [Azure Security](./cloud/azure.md)
-- [Google Cloud Security](./cloud/gcp.md)
-- [Contenedores y Kubernetes](./cloud/containers.md)
-- [DevSecOps](./cloud/devsecops.md)
-
-### Herramientas
-- [Herramientas de Reconocimiento](./herramientas/reconocimiento.md)
+### Herramientas Básicas
+- [Herramientas de Pentesting](./herramientas/reconocimiento.md)
   - Nmap
   - Masscan
   - Shodan
-- [Herramientas de Explotación](./herramientas/explotacion.md)
+- [Herramientas de Respuesta a Incidentes](./herramientas/explotacion.md)
   - Metasploit
   - Burp Suite
   - SQLMap
-- [Herramientas de Análisis](./herramientas/analisis.md)
+- [Herramientas de Análisis Forense](./herramientas/analisis.md)
   - Wireshark
   - TCPDump
   - NetworkMiner
