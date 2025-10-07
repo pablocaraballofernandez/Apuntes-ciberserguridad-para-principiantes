@@ -31,7 +31,7 @@ Los circuitos digitales pueden realizar funciones específicas o de propósito g
 
 Muchos sistemas microprogramables, además, añaden un pequeño software grabado en la estructura y del sistema llamado firmware. El firmware contiene un grupo de programas que sirve de intermediario entre el software y el hardware, el cual el usuario no puede alterar. En los sietemas informáticos se le llama BIOS (Basic Input/Output System).
 
-[Imágenes](./Images/1.png)
+[Imágenes](./Images_Hardware/1.png)
 
 Todo sistema por complejo que sea, poseen una estructura, en esta se distinguen los siguientes elementos:
 
@@ -47,7 +47,7 @@ Todo sistema por complejo que sea, poseen una estructura, en esta se distinguen 
 
 **· Periféricos:** es un conjunto de dispositivos que realizan un trabajo en el exterior del sistema. Estos periféricos pueden ser de entrada o salida, aunque existen algunos que realizan ambas funciones.
 
-[Imágenes](./Images/2.png)
+[Imágenes](./Images_Hardware/2.png)
 
 ## Esquema de bloques de un sistema basado en microprocesador
 
@@ -61,7 +61,7 @@ Los elementos esenciales que constituyen un sistema basado en microprocesador se
 **· Unidad de entradas/salidas (interface).**  
 **· Periféricos.**  
 
-[Imágenes](./Images/3.png)
+[Imágenes](./Images_Hardware/3.png)
 
 ### Unidad de Control (UC)
 
@@ -192,7 +192,7 @@ Es una placa de circuito impreso sobre la que se encuentra montada una serie de 
 
 - Dispositivos estándar heredados: controlador de DMA, controladores de interrupciones, reloj de tiempo real, etcétera.
 
-[Imágenes](./Images/4.png)
+[Imágenes](./Images_Hardware/4.png)
 
 ### Unidades de disco
 
@@ -255,7 +255,7 @@ Zonas del disco:
 
   Se encargan de alimentar a todos lo elementos del sistema informático. Se conecta a la placa base en varias partes con diferentes conectores, cada línea de cables contiene cables de diferentes colores cp¡on diferentes tensiones y funciones: 
 
-  [Imágenes](./Images/5.png)
+  [Imágenes](./Images_Hardware/5.png)
 
   
 
