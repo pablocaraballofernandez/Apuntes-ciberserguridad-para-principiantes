@@ -61,7 +61,7 @@ Los elementos esenciales que constituyen un sistema basado en microprocesador se
 **· Unidad de entradas/salidas (interface).**  
 **· Periféricos.**  
 
-![Imágenes](./Images_Hardware/3.png)
+![Imágenes](./Images_Hardware/4.png)
 
 ### Unidad de Control (UC)
 
@@ -192,7 +192,6 @@ Es una placa de circuito impreso sobre la que se encuentra montada una serie de 
 
 - Dispositivos estándar heredados: controlador de DMA, controladores de interrupciones, reloj de tiempo real, etcétera.
 
-![Imágenes](./Images_Hardware/4.png)
 
 ### Unidades de disco
 
