@@ -2,7 +2,23 @@
   
 # Redes Informáticas
 
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/Redes-Informáticas-0078D7?style=for-the-badge&logo=cisco" />
+  <img src="https://img.shields.io/badge/Protocolos-TCP/IP-orange?style=for-the-badge&logo=wireshark" />
+  <img src="https://img.shields.io/badge/Modelo-OSI-blueviolet?style=for-the-badge&logo=internetexplorer" />
+  <img src="https://img.shields.io/badge/Nivel-Estudiante-yellow?style=for-the-badge&logo=graduation-cap" />
+</p>
+
+</div> 
+
+# Indice  
+
+## · Redes de datos  
+
+## · Tipos de redes de datos  
+
+## · Modelos en capa
+
 
 ## Redes de datos  
 
@@ -49,15 +65,15 @@ La configuración física, es decir, la configuración espacial de la red, se de
 
 **· Topología de estrella (Ethernet):** en esta configuración, todos los equipos están conectados por líneas separadas que van al mismo nodo o estación central. La función de esta estación central consiste en conectar las líneas con cualquiera de las otras. Cuando un equipo envía un mensaje, indica la dirección del equipo al que va dirigido. El mensaje, al llegar a la estación central, es dirigido a la línea que conecta con el equipo que tiene la dirección del mensaje. Para evitar que algunos equipos monopolicen la red, la estación central concede una porción de tiempo a cada una de las líneas de la red cuando hay enviándose varios mensajes.
 
-[Imágenes](Images_Redes/4.png)
+![Imágenes](Images_Redes/4.png)
 
 **· Topología de árbol:** es una generalización del tipo bus. Tiene su primer equipo en la raíz (cabecera) y se expande hacia fuera utilizando ramas, en donde se conectan los demás equipos. Esta topología permite que la red se expanda y, al mismo tiempo, asegura que nada más existe una ruta de datos entre dos equipos cualesquiera. Esta configuración suele utilizarse en redes grandes.  
 
-[Imágenes](Images_Redes/5.png)
+![Imágenes](Images_Redes/5.png)
 
 **· Topología de malla:** es una combinación de más de una topología, como podría ser una bus combinada con una estrella. Este tipo de topología es común en lugares en donde tenían una red de bus y luego la fueron expandiendo en estrella. Son complicadas para detectar una avería por parte del servicio técnico. La ventaja de esta red es que permite garantizar la comunicación entre equipos porque dada su complejidad siempre existen varios caminos posibles.
 
-[Imágenes](Images_Redes/6.png)
+![Imágenes](Images_Redes/6.png)
 
 ### Internet
 
@@ -105,10 +121,64 @@ La comunicación entre dos equipos conectados a una red de datos es un proceso c
 
 El modelo en capas es jerárquico, esto es, las capas se sitúan una encima de otra, por lo que es posible distinguir entre capa superior y capa inferior. Una capa únicamente atenderá a las peticiones de la capa inmediatamente superior y solo pedirá tareas a la capa inmediatamente inferior. Cada capa se encargará de llevar a cabo la tarea solicitada de manera transparente para el resto de las capas.
 
-[Imágenes](Images_Redes/6.png)
+![Imágenes](Images_Redes/6.png)
 
 ### Modelo OSI
 
+El modelo OSI (Open System Interconnection) fue creado por la Organización internacional de normalización (ISO, International Standardization Organization) en 1984 como un marco de referencia para la definición de arquitectura de interconexión de sistemas de comunicaciones.  
+
+El modelo de referencia OSI está formado por siete capas o niveles (Figura 4.22) que definen las diferentes fases por las que deben pasar los datos para viajar de un dispositivo a otro sobre una red de comunicaciones de datos. A continuación se describe la función de cada una de estas capas:  
+
+**· Capa física:** es la encargada de transformar las tramas en señales eléctricas. Define el medio físico por el que van a viajar los datos, el tipo de cable, los materiales, las especificaciones eléctricas, etcétera.  
+
+**· Capa de enlace de datos:** se ocupa del direcciona-miento, la topología de la red, el acceso al medio, la detección de errores, la distribución ordenada de tramas y del control del flujo, esto es, que los mensajes lleguen sin errores, independientemente de la tecnología de transmisión física empleada.  
+
+**· Capa de red:** se encarga de establecer la ruta que llevarán los datos hasta su receptor final. Su objetivo es hacer que los datos lleguen desde el origen al destino, aun cuando ambos no estén conectados directamente.  
+
+**· Capa de transporte:** efectúa la transferencia de los datos del origen al destino, ofreciendo mecanismos de seguridad e independientemente del tipo de red física que se esté utilizando.  
+
+**· Capa de sesión:** se encarga de sincronizar el envío de información, mantener y controlar el enlace creado entre dos equipos, estableciendo la conversación, los turnos de palabra, el intercambio de datos, etc. Esta capa es quien libera la memoria cuando se están enviando datos.  
+
+**· Capa de presentación:** su tarea es la representación de la información. De modo que, aunque los equipos tengan diferentes representaciones internas de ca-racteres, los datos lleguen de manera reconocible. En esta capa se tratan aspectos tales como la semántica y la sintaxis de los datos transmitidos, ya que distintos equipos pueden tener diferentes formas de manejarlas.
+Por tanto, podría decirse que esta capa actúa como un traductor. Esta capa también permite cifrar los datos y comprimirlos.  
+
+**· Capa de aplicación:** ofrece a las aplicaciones la posibilidad de acceder a los servicios de las demás capas y define los protocolos que utilizan las aplicaciones para intercambiar datos. Es importante aclarar que el usua-rio, normalmente, no interactúa directamente con el nivel de aplicación. Suele interactuar con programas que a su vez interactúan con el nivel de aplicación.  
+
+![Imágenes](https://www.stackscale.com/wp-content/uploads/2023/04/OSI-modelo-capas-ataques-Stackscale.jpg)
 
 
+![Imágenes](Images_Redes/7.png)
 
+### Modelo TCP/IP
+
+El modelo TCP/IP (Transmission Control Protocol/Inter-net Protocol) es el modelo más empleado para la interconexión de sistemas. Nace en la década de los setenta en una agencia del Departamento de Defensa de los Estados Unidos (DoD) para la red ARPANET.  
+
+Este modelo describe un conjunto de reglas generales para permitir que cualquier equipo pueda comunicarse en una red, por lo que se ha convertido en un estándar de internet. TCP/IP especifica cómo deben ser tratados los datos, direccionados, transmitidos, enrutados y recibidos. TCP/IP no es un modelo de referencia como OSI, sino que describe y define todas las tareas del proceso de comunicación.  
+
+El modelo TCP/IP, al igual que el OSI, organiza todas las tareas en capas, de manera que las entidades de una capa ofrecen servicios a las entidades de la capa superior. A diferencia del modelo OSI, TCP/IP solo tiene cuatro capas o niveles de abstracción:  
+
+**· Capa de acceso a la red:** define las características del medio de transmisión y las características físicas de la transmisión como tipo de señal, velocidad de transmi-sión, etc. Además, realiza la traducción de las direcciones de nivel de red (IP) a direcciones físicas, generando las tramas de datos a enviar. Asimilable a la capa de enlace de datos y a la capa física del modelo OSI.  
+
+**· Capa de internet:** define el camino a seguir por los datos desde el origen hasta el destino. Cuando dos equipos están conectados a redes diferentes y desean intercambiar datos, es necesario determinar un camino para transportarlos, atravesando en ocasiones distintas redes. Asimilable a la capa de red del modelo OSI.
+
+**· Capa de transporte:** también denominada extremo a extremo (host to host). Proporciona un servicio de transferencia de datos garantizado entre sistemas fina-les, ocultando detalles de la red. Existen dos tipos de protocolos de este nivel, atendiendo al tipo de servicio ofrecido, orientado a la conexión (TCP) o no orientado a la conexión (UDP). El protocolo UDP (User Da-tagram Protocol) permite el envío de datos sin que se haya establecido previamente una conexión y proporciona un nivel de transporte no fiable. Mientras que el protocolo TCP proporciona un envío fiable, a costa de añadir más información en los datos. Asimilable a la capa de transporte del modelo OSI.  
+
+**· Capa de aplicación:** permite la comunicación entre aplicaciones de equipos remotos. Maneja aspectos de representación, codificación y control de diálogo. Asimilable a la capa de sesión, de presentación y de aplicación del modelo OSI.
+
+<div align="center">
+
+![Imágenes](https://www.textoscientificos.com/imagenes/redes/tcp-ip-osi.gif)
+
+</div>
+
+### Protocolos de resolución de direcciones (ARP)  
+
+El protocolo de resolución de direcciones (Address Resolution Protocol) es un protocolo de la capa de internet de gran importancia. Este protocolo permite que se conozca la dirección física de una tarjeta de red correspondiente a una dirección IP.  
+
+Cada dispositivo conectado a la red tiene un número de identificación de 48 bits. Este número es único y se establece en el momento de fabricación de la tarjeta. Sin embargo, la comunicación en internet no utiliza directamente este número, puesto que implicaría que las direcciones de los dispositivos deberían cambiarse cada vez que se reemplaza la tarjeta de red. Por ello, se utiliza una dirección lógica (dirección IP) asignada por un organismo llamado ICANN (Internet Corporation for Assigned Names and Numbers).  
+
+Para conocer la correspondencia entre las direcciones físicas con las direcciones lógicas, el protocolo ARP interroga a los dispositivos de la red y crea una tabla en una memoria caché llamada tabla ARP. De este modo, cuando un dispositivo debe comunicarse con otro, consulta la tabla ARP. Si la dirección requerida no se encuentra en la tabla, el protocolo ARP envía una solicitud a la red (ARP-REQUEST). Todos los dispositivos de la red comparan esta dirección lógica con la suya. Si alguno de ellos se identifica con esta dirección, el dispositivo responderá al ARP (ARP-REPLY) y se almacenarán los datos en la tabla ARP. A continuación, podrá establecerse la comunicación. Sin em-bargo, no es muy recomendable mantener esta información para siempre, ya que las tarjetas de red de los dispositivos pueden haber sido reemplazadas. Por este motivo, las entradas en la caché ARP son desechadas cada cierto tiempo para forzar otra búsqueda de la dirección IP.  
+
+A veces, también, es necesario encontrar la dirección IP asociada a una dirección física. En este caso, el protocolo que resuelve el problema es el RARP (Reverse Address Resolution Protocol). El protocolo RARP se usa esencialmente en estaciones de trabajo sin disco duro que al arrancar necesitan conocer su dirección IP. Para ello envía una petición RARP a un servidor de direcciones que, a partir de la dirección física, consulta su base de datos para obtener la dirección IP correspondiente, y le responde indicándosela.  
+
+![Imágenes](https://www.manageengine.com/latam/oputils/images/Address-resolution-protocol-tech-page-creatives-01.png)
