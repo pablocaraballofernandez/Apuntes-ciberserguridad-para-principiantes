@@ -2,6 +2,14 @@
   
 # Sistemas Operativos
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Sistemas-Operativos-0078D6?style=for-the-badge&logo=windows" />
+  <img src="https://img.shields.io/badge/Linux-Kernel-black?style=for-the-badge&logo=linux" />
+  <img src="https://img.shields.io/badge/Procesos-y%20Memoria-orange?style=for-the-badge&logo=gnubash" />
+  <img src="https://img.shields.io/badge/Aprendizaje-Actívo-success?style=for-the-badge&logo=bookstack" />
+  <img src="https://img.shields.io/badge/Nivel-Estudiante-yellow?style=for-the-badge&logo=graduation-cap" />
+</p>
+
 </div>
 
   
