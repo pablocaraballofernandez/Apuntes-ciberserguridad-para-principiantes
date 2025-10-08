@@ -9,7 +9,7 @@ Un sistema operativo es un conjunto de programas básicos que permiten manejar, 
 
 En realidad, lo primero que realiza el sistema informático al arrancar (entre otras cosas) es cargar de una unidad de disco los ficheros del sistema y ejecutarlos. Tras unos instantes, el ordenador está preparado para empezar a ejecutar el programa o las órdenes que se le indique.
 
-![Imágenes](Images_OS/1,png)
+![Imágenes](Images_OS/1.png)
 
 Existen una gran variedad de sistemas operativos, con diferentes características, que ofrecen una serie de ventajas e inconvenientes dependiendo del ordenador o el entorno donde se utilicen: UNIX, Linux, Windows, VMS, Solaris, etc. Sin embargo, actualmente el sistema operativo más extendido es Windows.  
 
