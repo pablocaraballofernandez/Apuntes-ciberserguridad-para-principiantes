@@ -2,17 +2,23 @@
   
 # Hardware Básico
 
+![Hardware](https://img.shields.io/badge/Hardware_Básico-Informática-0A66C2.svg?style=flat)
+![Educativo](https://img.shields.io/badge/Material_Educativo-Yes-brightgreen.svg?style=flat)
+![Nivel](https://img.shields.io/badge/Nivel-Introductorio-FFD700.svg?style=flat)
+![Lenguaje](https://img.shields.io/badge/Idioma-Español-orange.svg?style=flat)
+
+
 </div>
 
 ---
 # Indice
 
-## Características y análisis de las necesidades informáticas  
-## Arquitectura hardware de un sistema informático.
-## Esquema de bloques de un sistema basado en microprocesador
-## Buses del Sistema
-## Elementos hardware de un sistema informático
-## Componentes de la unidad central
+## · Características y análisis de las necesidades informáticas  
+## · Arquitectura hardware de un sistema informático.
+## · Esquema de bloques de un sistema basado en microprocesador
+## · Buses del Sistema
+## · Elementos hardware de un sistema informático
+## · Componentes de la unidad central
 
 
 
