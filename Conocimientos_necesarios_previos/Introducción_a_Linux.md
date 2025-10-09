@@ -1086,17 +1086,3 @@ El hardening es el proceso de asegurar un sistema reduciendo su superficie de at
 - **lynis**: Auditoría de seguridad
 - **OSSEC**: HIDS (Host Intrusion Detection System)
 
----
-
-## CONCLUSIÓN
-
-Esta introducción a Linux ha cubierto los conceptos fundamentales necesarios para comprender la arquitectura y funcionamiento del sistema operativo. Los conocimientos aquí presentados son la base sobre la cual se construyen habilidades más avanzadas en administración de sistemas y, particularmente, en ciberseguridad.
-
-**Próximos pasos recomendados:**
-1. Práctica con comandos básicos en un entorno Linux
-2. Profundización en scripting con Bash
-3. Estudio de herramientas específicas de seguridad
-4. Configuración y hardening de servicios
-5. Análisis de logs y forense en Linux
-
-La comprensión profunda de estos conceptos teóricos es esencial para poder aplicar medidas de seguridad efectivas, realizar análisis de vulnerabilidades y responder a incidentes de seguridad en entornos Linux.
