@@ -1,5 +1,5 @@
 # INTRODUCCIÓN A LINUX
-## Apuntes Teórico-Conceptuales para Nivel Entry-Level
+## Apuntes de Ciberseguridad para principiantes
 
 ---
 
