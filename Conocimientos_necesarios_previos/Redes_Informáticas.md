@@ -2,6 +2,10 @@
   
 # Redes Informáticas
 
+## Apuntes de Ciberseguridad para principiantes
+
+</div>
+
 <p align="center">
   <img src="https://img.shields.io/badge/Redes-Informáticas-0078D7?style=for-the-badge&logo=cisco" />
   <img src="https://img.shields.io/badge/Protocolos-TCP/IP-orange?style=for-the-badge&logo=wireshark" />
@@ -11,16 +15,31 @@
 
 </div> 
 
-# Indice  
+---
 
-## · Redes de datos  
+## ÍNDICE
 
-## · Tipos de redes de datos  
+1. **Redes de datos**
+   - 1.1 Elementos
 
-## · Modelos en capa
+2. **Topologías y estructura**
+   - 2.1 Internet
+
+3. **Tipos de redes de datos**
+   - 3.1 LAN o Red de área local 
+   - 3.2 WLAN o Red de área local inalámbrica
+   - 3.3 MAN o Red de área metropolitana  
+   - 3.4 WAN o Red de área extensa 
+
+5. **Modelos en capa**
+   - 4.1 Modelo OSI
+   - 4.2 Modelo TCP/IP
+   - 4.3 Protocolos de resolución de direcciones (ARP)
+
+---
 
 
-## Redes de datos  
+## 1. Redes de datos  
 
 Las redes de datos surgen ante la necesidad de comunicar y compartir información entre usuarios. Una red de datos informática mantiene los beneficios del ordenador personal (software propio, información personal, etc.), pero añadiendo la posibilidad de compartir recursos software y hardware con otros usuarios, lo que aporta unas enormes ventajas:  
 
@@ -36,7 +55,7 @@ Las redes de datos surgen ante la necesidad de comunicar y compartir informació
   
 **· Capacidad de ampliación:** las redes de datos permiten una rápida expansión y es muy fácil añadir elementos nuevos,
 
-### Elementos
+### 1.1. Elementos
 
 Para que la comunicación sea posible, se necesita un elemento que realice la transmisión (trans-misor) y otro que reciba los datos enviados (receptor) a través de un medio (canal de transmisión).
 
@@ -50,7 +69,7 @@ El **canal** de transmisión es el medio utilizado para hacer llegar la informac
 
 Un sistema de comunicaciones puede verse afectado por **contaminantes** que modifican la señal transportada sobre el medio de transmisión. Estos contaminantes producen que el mensaje recibido no sea exactamente igual al transmitido. Estos contaminantes son imposibles de eliminar, por tanto, un objetivo de los sistemas de comunicaciones es reducir su incidencia.  
 
-## Topologías y estructura  
+## 2. Topologías y estructura  
 
 Una red de datos está compuesta por equipos que están conectados entre sí mediante líneas de comunicación (cables de red, etc.) y elementos de hardware (adaptadores de red y otros equipos que garantizan que los datos viajen correctamente).
 La configuración física, es decir, la configuración espacial de la red, se denomina topología física. El objetivo de cada topología es encontrar la forma más económica y eficaz de comunicar los equipos. Dependiendo de cómo se conecten los quipos entre sí, da lugar a varios tipos de configuraciones:  
@@ -75,7 +94,7 @@ La configuración física, es decir, la configuración espacial de la red, se de
 
 ![Imágenes](Images_Redes/6.png)
 
-### Internet
+### 2.1. Internet
 
 Internet es una red de redes de alcance mundial que permite la interconexión descentralizada de redes de datos utilizando el protocolo TCP/IP.
 
@@ -83,15 +102,15 @@ El desarrollo de internet ha superado ampliamente cualquier previsión y ha cons
 
 Una buena red de contactos es fundamental en los negocios y, aprovechando la conectividad que brinda internet, nace el servicio Networking. El Networking está basado en una red de contactos profesionales que permite dar a conocer un negocio, escuchar y aprender de los demás, econtrar posibles colaboradores, socios o inversores. 
 
-## Tipos de redes de datos
+## 3. Tipos de redes de datos
 
 Las redes de datos pueden clasificarse atendiendo a diversos criterios. La más común es con relación al tamaño de la red (área de distribución), pudiéndose encontrar los siguientes tipos:  
 
-### LAN o Red de área local  
+### 3.1. LAN o Red de área local  
 
 Su extensión está limitada físicamente a un edificio o como mucho a edificios contiguos. Es una red privada para conectar ordenadores personales y estaciones de trabajo en oficinas, fábricas, etcétera.  
 
-### WLAN o Red de área local inalámbrica  
+### 3.2. WLAN o Red de área local inalámbrica  
 
 Es una red de área local sin cables, utiliza tecnologías de radiofrecuencia que permiten mayor movilidad al minimizar las conexiones cableadas. Se utiliza como alternativa a la red LAN o como extensión de estas con un alcance aproximado de 100 metros. Existen varios tipos de tecnologías:  
 
@@ -107,15 +126,15 @@ Actualmente hay seis versiones importantes:
 
 **· HiperLAN (High Performance Radio LAN):** es un estándar europeo desarrollado por ETSI (European Telecommunications Standards Institute). Su última versión, la HiperLAN2, permite a los usuarios alcanzar una velocidad máxima de 54 Mb/s en un área aproximada de 100 metros.
 
-### MAN o Red de área metropolitana  
+### 3.3. MAN o Red de área metropolitana  
 
 Esta red es una versión más grande de una LAN que cubre ciudades enteras y, normalmente, se basa en una tecnología similar. La principal razón para distinguir las MAN como una categoría especial es que se ha adoptado un estándar para ellas, DQDB (Distributed-Queue Dual-Bus) o bus dual de cola distribuida, para asegurar una alta velocidad.  
 
-### WAN o Red de área extensa  
+### 3.4. WAN o Red de área extensa  
 
 Engloba todas las redes de datos que cubren un área geográfica extensa. Normalmente, una WAN está compuesta por un grupo de LAN conectadas a través de enlaces, ya sean cableados o inalámbricos. Un ejemplo de este tipo de redes sería RedIRIS, internet o cualquier red en la cual no estén en un mismo edificio todos sus miembros.  
 
-## Modelos en capa  
+## 4-Modelos en capa  
 
 La comunicación entre dos equipos conectados a una red de datos es un proceso complejo. Por tanto, el estudio y el desarrollo de estas redes es una tarea complicada. Para facilitarla, se emplean estrategias modulares, que dividen el problema complejo en partes más simples. Cada parte se encarga de realizar, de manera transparente para las demás, una determinada función dentro del proceso de comunica-ción. De este modo, cada parte del proceso se despreocupa del resto y únicamente se encarga de las tareas de su nivel o capa. Así, esta idea de dividir en partes el proceso de comunicación desemboca en un modelo en capas.  
 
@@ -123,7 +142,7 @@ El modelo en capas es jerárquico, esto es, las capas se sitúan una encima de o
 
 ![Imágenes](Images_Redes/6.png)
 
-### Modelo OSI
+### 4.1-Modelo OSI
 
 El modelo OSI (Open System Interconnection) fue creado por la Organización internacional de normalización (ISO, International Standardization Organization) en 1984 como un marco de referencia para la definición de arquitectura de interconexión de sistemas de comunicaciones.  
 
@@ -149,7 +168,7 @@ Por tanto, podría decirse que esta capa actúa como un traductor. Esta capa tam
 
 ![Imágenes](Images_Redes/7.png)
 
-### Modelo TCP/IP
+### 4.2-Modelo TCP/IP
 
 El modelo TCP/IP (Transmission Control Protocol/Inter-net Protocol) es el modelo más empleado para la interconexión de sistemas. Nace en la década de los setenta en una agencia del Departamento de Defensa de los Estados Unidos (DoD) para la red ARPANET.  
 
@@ -171,7 +190,7 @@ El modelo TCP/IP, al igual que el OSI, organiza todas las tareas en capas, de ma
 
 </div>
 
-### Protocolos de resolución de direcciones (ARP)  
+### 4.3-Protocolos de resolución de direcciones (ARP)  
 
 El protocolo de resolución de direcciones (Address Resolution Protocol) es un protocolo de la capa de internet de gran importancia. Este protocolo permite que se conozca la dirección física de una tarjeta de red correspondiente a una dirección IP.  
 
