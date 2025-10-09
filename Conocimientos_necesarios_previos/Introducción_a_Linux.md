@@ -1,6 +1,17 @@
 # INTRODUCCIÓN A LINUX
 ## Apuntes de Ciberseguridad para principiantes
 
+<div align="center">
+   
+[![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://www.linux.org/)
+![Bienvenido](https://img.shields.io/badge/-%C2%A1Bienvenido_al_repositorio!-%235D3FD3?style=flat-square)
+![Keep Calm](https://img.shields.io/badge/Keep_Calm-and_sudo_apt_update-blue?style=flat-square)
+![Made with Love](https://img.shields.io/badge/Hecho_con-%E2%9D%A4-ff69b4.svg)
+![Modo Hacker](https://img.shields.io/badge/Modo-Hacker_Activado-00ff00?style=for-the-badge)
+
+</div>
+
 ---
 
 ## ÍNDICE
