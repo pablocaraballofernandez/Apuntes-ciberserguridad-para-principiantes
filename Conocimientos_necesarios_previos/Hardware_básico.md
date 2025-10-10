@@ -13,12 +13,25 @@
 ---
 # Indice
 
-## · Características y análisis de las necesidades informáticas  
-## · Arquitectura hardware de un sistema informático.
-## · Esquema de bloques de un sistema basado en microprocesador
-## · Buses del Sistema
-## · Elementos hardware de un sistema informático
-## · Componentes de la unidad central
+1. **Características y análisis de las necesidades informáticas**
+   - 1.1 Elementos
+
+2. **Arquitectura hardware de un sistema informático**
+   - 2.1 Internet
+
+3. **Esquema de bloques de un sistema basado en microprocesador**
+   - 3.1 LAN o Red de área local 
+   - 3.2 WLAN o Red de área local inalámbrica
+   - 3.3 MAN o Red de área metropolitana  
+   - 3.4 WAN o Red de área extensa 
+
+5. **Buses del Sistema**
+   - 4.1 Modelo OSI
+   - 4.2 Modelo TCP/IP
+   - 4.3 Protocolos de resolución de direcciones (ARP)
+6. **Elementos hardware de un sistema informático**
+  
+7. **Componentes de la unidad central**
 
 
 
