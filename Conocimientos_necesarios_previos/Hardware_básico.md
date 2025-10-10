@@ -14,37 +14,41 @@
 # Indice
 
 1. **Características y análisis de las necesidades informáticas**
-   - 1.1 Elementos
 
 2. **Arquitectura hardware de un sistema informático**
-   - 2.1 Internet
 
 3. **Esquema de bloques de un sistema basado en microprocesador**
-   - 3.1 LAN o Red de área local 
-   - 3.2 WLAN o Red de área local inalámbrica
-   - 3.3 MAN o Red de área metropolitana  
-   - 3.4 WAN o Red de área extensa 
+   - 3.1 Unidad de Control (UC)
+   - 3.2 Unidad Aritmética-lógica (ALU)
+   - 3.3 Reloj 
+   - 3.4 Memoria cental o Memoria Principal (MC)
+   - 3.5 Unidades de Entrada y Salida
+   - 3.6 Periféricos
 
-5. **Buses del Sistema**
-   - 4.1 Modelo OSI
-   - 4.2 Modelo TCP/IP
-   - 4.3 Protocolos de resolución de direcciones (ARP)
-6. **Elementos hardware de un sistema informático**
+4. **Buses del Sistema**
+   
+5. **Elementos hardware de un sistema informático**
   
-7. **Componentes de la unidad central**
+6. **Componentes de la unidad central**
+   - 6.1 Buses del Sistema
+   - 6.2 Placa base
+   - 6.3 Unidades de disco
+   - 6.4 Tarjetas
+
+7. **Fuente de alimentación**
 
 
 
 
 
-## Características y análisis de las necesidades informáticas
+## 1. Características y análisis de las necesidades informáticas
 
 · Determinar las necesidades informáticas en función de las aplicaciones y el uso.  
 · Seleccionar los componenetes del equipo informático y los diferentes tipos de periféricos.  
 · Determinar las necesidades software.  
 · Dejar abierta la posibilidad de una ampliación posterior.  
 
-## Arquitectura hardware de un sistema informático
+## 2. Arquitectura hardware de un sistema informático
 
 Los circuitos digitales pueden realizar funciones específicas o de propósito general. En los circuitos específicos (lógica cableada) solo hay una parte hardware, mientras que los de propósito general (lógica programada) constan de una parte fija, hardware, y de otra variable, software, que indica al circuito digital la tarea a realizar. A este tipo de circuitos se les denomina microprogramables.  
 
@@ -68,7 +72,7 @@ Todo sistema por complejo que sea, poseen una estructura, en esta se distinguen 
 
 ![Imágenes](./Images_Hardware/2.png)
 
-## Esquema de bloques de un sistema basado en microprocesador
+## 3. Esquema de bloques de un sistema basado en microprocesador
 
 Los elementos esenciales que constituyen un sistema basado en microprocesador se representan en el esquema. Como se puede observar está dividido en los siguientes bloques:
 
@@ -82,11 +86,11 @@ Los elementos esenciales que constituyen un sistema basado en microprocesador se
 
 ![Imágenes](./Images_Hardware/4.png)
 
-### Unidad de Control (UC)
+### 3.1 Unidad de Control (UC)
 
 Esta es la parte más importante del microprocesador y es la encargada de gobernar el funcionamiento global del mismo. Recibe la información, la transforma e interpreta, enviando órdenes precisas a los elementos que las requieren para un procesamiento correcto de los datos.
 
-### Unidad Aritmética-lógica (ALU)
+### 3.2 Unidad Aritmética-lógica (ALU)
 
 Es la parte operativa del microprocesador. Es la zona donde se realizan las operaciones aritméticas y lógicas ordenadas desde la unidad de control con los datos procedentes de la memoria central o contenidos en registros. Se compone de tres elementos:
 
@@ -94,14 +98,14 @@ Es la parte operativa del microprocesador. Es la zona donde se realizan las oper
 **- Registro de estado:** informa sobre el resultado que se obtuvo al ejecutar la última instrucción y que se tendrá que tener en cuenta en otras operaciones
 **- Registro de entrada(R1 y R2):** almacenan los datos que intervienen en la operación a realizar por la ALU.
 
-### Reloj
+### 3.3 Reloj
 
 Para que el microprocesador genere todas las señales necesarias para controlar los restantes bloques del sistema y para que todo el sistema vaya en sincronía. A partir de esta señal de reloj, el microprocesador realiza una serie de ciclos de trabajo denominados ciclo máquina. Cada ciclo máquina representa un acceso a memoria o a un dispositivo de E/S. El número de ciclos necesarios para completar una instrucción es llamado ciclo de instrucción, dividido en dos fases:
 
 **- Fase de búsqueda(fetch cycle):** en esta fase el micro realiza la búsqueda en memoria de una intrucción y la guarda en el registro correspondiente.
 **-Fase de ejecución(executa cycle):** en esta fase el micro ejecuta o realiza la transferencia de datos ordenada.
 
-### Memoria cental o Memoria Principal (MC)
+### 3.4 Memoria cental o Memoria Principal (MC)
 
 Es la encargada del almacenamiento de los programas y de la información necesaria para el funcionamiento del sistema. Se compone de celdas o palabras de memoria, semejantes y funcionalmente diferentes. Esta dividida en dos partes:
 
@@ -111,7 +115,7 @@ Es la encargada del almacenamiento de los programas y de la información necesar
 
 **- ROM:** su nombre corresponde a las iniciales de Read Only Memory, que significa memoria de solo lectura. Al contrario que la memoria RAM, este tipo de memoria solo permite la lectura (read). Su función en el sistema es contener los datos y programas de arranque, para que el microprocesador pueda comunicarse con el resto del sistema. En los sistemas informáticos se le denomina BIOS, porque contiene las intrucciones básicas de entrada y salida.
 
-### Unidades de Entrada y Salida
+### 3.5 Unidades de Entrada y Salida
 
 Estas unidades consisten, generalmente, en registros que, accionados por los buses de control y direccio-nes, almacenan la información suministrada por el bus de datos. Las salidas de estos registros son accesibles desde el exterior para su conexión a cualquier dispositivo que se deba accionar.  
 
@@ -119,7 +123,7 @@ Estas unidades consisten, generalmente, en registros que, accionados por los bus
   
 **Los registros de salida**, al igual que los de entrada, son multiplexados, cuya carga se realiza desde el interior del sistema sobre una serie de registros en los que el sistema deposita el resultado de la información ya procesada. Como se observa en la Figura 1.9, el contenido de estos registros es accesible en cualquier momento desde el exterior por una serie de terminales (O, a O,).
 
-### Periféricos
+### 3.6 Periféricos
 
 Están formados por un amplio grupo de dispositivos, cir-cuitos, máquinas, etc.; en definitiva, todos los aparatos que, controlados por el sistema, realizan un trabajo exterior. Los periféricos se clasifican según el tipo de función que pueden realizar:  
 
@@ -127,7 +131,7 @@ Están formados por un amplio grupo de dispositivos, cir-cuitos, máquinas, etc.
 
 **· Periféricos de almacenamiento masivo:** la función de este tipo de periféricos es la de almacenar una gran cantidad de información de forma permanente y segu-ra, ya que el contenido de la memoria RAM se pierde cuando se desconecta el sistema. Existen numerosos sistemas de almacenamiento masivo, pero los más utilizados son las unidades de disco magnético y las unidades de disco óptico.
 
-## Buses del Sistema
+## 4. Buses del Sistema
 
 Los elementos principales de un sistema microprogramable van comunicados a través de canales llamados buses. Estos buses están compuestos por diferentes hilos eléctricos que transportan información del mismo tipo. El número de líneas indica el ancho del bus.
 
@@ -139,7 +143,7 @@ Los sistemas microprogramables se componen de tres buses fundamentales:
 
 -**Bus de control(Control bus):** *  este bus está formado por una serie de líneas denominadas líneas de control, por las que va a circular el conjunto de señales necesarias para la correcta coordinación de todos los elementos del sistema, tales como: órdenes de lectura o escritura, inhabilitación (desactivación) de un dispositivo, etcétera.  
 
-## Elementos hardware de un sistema informático
+## 5. Elementos hardware de un sistema informático
 
 Un sistema informático tiene al menos tres partes bien diferenciadas:
 
@@ -149,9 +153,9 @@ Un sistema informático tiene al menos tres partes bien diferenciadas:
 
 -**Teclado:** es el periférico de entrada más importante y permite dar las órdenes al sistema informático.
 
-## Componentes de la unidad central
+## 6. Componentes de la unidad central
 
-### Caja
+### 6.1 Caja
 
 Es la coraza en cuyo interior se alojan los demás piezas que forman la unidad central. Hay diferentes tipos de caja:
 
@@ -169,7 +173,7 @@ Es la coraza en cuyo interior se alojan los demás piezas que forman la unidad c
 
 -**Portátiles:** los hay de muy diversas formas, auqneu suelen tener un espesor de 1 a 4cm y su lomgitud y anchira se asemejan a un formato A4, aunque actualmente son panorámicos en su mayoría.
 
-### Placa base
+### 6.2 Placa base
 
 Es una placa de circuito impreso sobre la que se encuentra montada una serie de componentes electrónicos que hacen funcionar a todo el sistema informático. Su calidad influye sustancialmente en las prestaciones del equipo. Aparte de los componentes pasivos (resistencias, condensadores, etc.), pueden distinguirse una serie de elementos importantes:  
 
@@ -212,7 +216,7 @@ Es una placa de circuito impreso sobre la que se encuentra montada una serie de 
 - Dispositivos estándar heredados: controlador de DMA, controladores de interrupciones, reloj de tiempo real, etcétera.
 
 
-### Unidades de disco
+### 6.3 Unidades de disco
 
 Son dispositivos de almacenamiento de gran capacidad de información de forma permanente. Existen tres tipos:
 
@@ -257,7 +261,7 @@ Zonas del disco:
 
   **· De estado sólido(SSD):** son unidades de disco compuestos por chips de memoria flash, sustituyendo a los discos magnéticos de los discos duros rígidos. 
 
-  ### Tarjetas
+  ### 6.4 Tarjetas
 
   Son componentes que realizan multitud de funciones:
 
@@ -269,7 +273,7 @@ Zonas del disco:
 
   **· Tarjeta de red:** permite la conexión a internet, la mayoría de placas base ya traen una integrada.
 
-  ## Fuente de alimentación
+  ## 7. Fuente de alimentación
 
   Se encargan de alimentar a todos lo elementos del sistema informático. Se conecta a la placa base en varias partes con diferentes conectores, cada línea de cables contiene cables de diferentes colores cp¡on diferentes tensiones y funciones: 
 
