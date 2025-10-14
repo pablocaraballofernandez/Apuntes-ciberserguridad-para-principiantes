@@ -80,19 +80,19 @@ La configuración física, es decir, la configuración espacial de la red, se de
 
 **· Topología en anillo (Token-Ring):**  en esta topología todos los equipos están conectados a la red en forma de lazo. Cuando un equipo envía un mensaje, indica la dirección del equipo al que va dirigido. El mensaje entra en la red y empieza a recorrer todo el anillo, de forma que los equipos que no tienen la dirección especificada por el mensaje ignoran su contenido y el que tiene la dirección especificada lee la información contenida. La ventaja de esta configuración con la anterior consiste en que si se rompe la red por un punto, los mensajes siguen llegando al resto de los equipos de la red.
 
-![Imágenes](Images_Redes/3.png)
+![Imágenes](https://topologiasdered.com/wp-content/uploads/topologia-de-red-en-anillo.webp)
 
 **· Topología de estrella (Ethernet):** en esta configuración, todos los equipos están conectados por líneas separadas que van al mismo nodo o estación central. La función de esta estación central consiste en conectar las líneas con cualquiera de las otras. Cuando un equipo envía un mensaje, indica la dirección del equipo al que va dirigido. El mensaje, al llegar a la estación central, es dirigido a la línea que conecta con el equipo que tiene la dirección del mensaje. Para evitar que algunos equipos monopolicen la red, la estación central concede una porción de tiempo a cada una de las líneas de la red cuando hay enviándose varios mensajes.
 
-![Imágenes](Images_Redes/4.png)
+![Imágenes](https://cdn-icons-png.flaticon.com/512/18474/18474803.png)
 
 **· Topología de árbol:** es una generalización del tipo bus. Tiene su primer equipo en la raíz (cabecera) y se expande hacia fuera utilizando ramas, en donde se conectan los demás equipos. Esta topología permite que la red se expanda y, al mismo tiempo, asegura que nada más existe una ruta de datos entre dos equipos cualesquiera. Esta configuración suele utilizarse en redes grandes.  
 
-![Imágenes](Images_Redes/5.png)
+![Imágenes](Images_Redes/3.png)
 
 **· Topología de malla:** es una combinación de más de una topología, como podría ser una bus combinada con una estrella. Este tipo de topología es común en lugares en donde tenían una red de bus y luego la fueron expandiendo en estrella. Son complicadas para detectar una avería por parte del servicio técnico. La ventaja de esta red es que permite garantizar la comunicación entre equipos porque dada su complejidad siempre existen varios caminos posibles.
 
-![Imágenes](Images_Redes/6.png)
+![Imágenes](https://topologiasdered.com/wp-content/uploads/topologia-red-en-malla-2022.webp)
 
 ### 2.1. Internet
 
@@ -140,7 +140,7 @@ La comunicación entre dos equipos conectados a una red de datos es un proceso c
 
 El modelo en capas es jerárquico, esto es, las capas se sitúan una encima de otra, por lo que es posible distinguir entre capa superior y capa inferior. Una capa únicamente atenderá a las peticiones de la capa inmediatamente superior y solo pedirá tareas a la capa inmediatamente inferior. Cada capa se encargará de llevar a cabo la tarea solicitada de manera transparente para el resto de las capas.
 
-![Imágenes](Images_Redes/6.png)
+![Imágenes](Images_Redes/4.png)
 
 ### 4.1-Modelo OSI
 
