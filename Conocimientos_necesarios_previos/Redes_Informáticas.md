@@ -140,7 +140,7 @@ La comunicación entre dos equipos conectados a una red de datos es un proceso c
 
 El modelo en capas es jerárquico, esto es, las capas se sitúan una encima de otra, por lo que es posible distinguir entre capa superior y capa inferior. Una capa únicamente atenderá a las peticiones de la capa inmediatamente superior y solo pedirá tareas a la capa inmediatamente inferior. Cada capa se encargará de llevar a cabo la tarea solicitada de manera transparente para el resto de las capas.
 
-![Imágenes](Images_Redes/4.png)
+![Imágenes](Images_Redes/5.png)
 
 ### 4.1-Modelo OSI
 
@@ -164,9 +164,6 @@ Por tanto, podría decirse que esta capa actúa como un traductor. Esta capa tam
 **· Capa de aplicación:** ofrece a las aplicaciones la posibilidad de acceder a los servicios de las demás capas y define los protocolos que utilizan las aplicaciones para intercambiar datos. Es importante aclarar que el usua-rio, normalmente, no interactúa directamente con el nivel de aplicación. Suele interactuar con programas que a su vez interactúan con el nivel de aplicación.  
 
 ![Imágenes](https://www.stackscale.com/wp-content/uploads/2023/04/OSI-modelo-capas-ataques-Stackscale.jpg)
-
-
-![Imágenes](Images_Redes/7.png)
 
 ### 4.2-Modelo TCP/IP
 
