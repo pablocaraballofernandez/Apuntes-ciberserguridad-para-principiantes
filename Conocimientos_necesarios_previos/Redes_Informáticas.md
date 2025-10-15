@@ -31,7 +31,7 @@
    - 3.3 MAN o Red de área metropolitana  
    - 3.4 WAN o Red de área extensa 
 
-5. **Modelos en capa**
+4. **Modelos en capa**
    - 4.1 Modelo OSI
    - 4.2 Modelo TCP/IP
    - 4.3 Protocolos de resolución de direcciones (ARP)
