@@ -1,4 +1,16 @@
-# Introducción a la programación: Guía completa para principiantes
+<div align="center">
+  
+# Introducción a la programación
+
+## Apuntes de Ciberseguridad para principiantes
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Programación-Introductoria-0078D7?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/Lógica%20y%20Algoritmos-Fundamentos-orange?style=for-the-badge&logo=c" />
+  <img src="https://img.shields.io/badge/Nivel-Estudiante-yellow?style=for-the-badge&logo=graduation-cap" />
+</p>
+
+</div>
 
 ##  ÍNDICE
 
