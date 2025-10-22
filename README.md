@@ -21,7 +21,7 @@ Crear una base de conocimientos estructurada y accesible sobre ciberseguridad qu
 
 ### Conocimientos necesarios previos
 - [Redes informáticas](./Conocimientos_necesarios_previos/Redes_Informáticas.md)
-- [Aplicaciones web](./Conocimientos_necesarios_previos/Aplicaciones_web.md)
+- [Introducción a la programación](./Conocimientos_necesarios_previos/Introducióm_a_la_programación.md)
 - [Sistemas Operativos](./Conocimientos_necesarios_previos/Sistemas_Operativos.md)
 - [Introducción a Linux](./Conocimientos_necesarios_previos/Introducción_a_Linux.md)
 - [Hardware básico](./Conocimientos_necesarios_previos/Hardware_básico.md)
