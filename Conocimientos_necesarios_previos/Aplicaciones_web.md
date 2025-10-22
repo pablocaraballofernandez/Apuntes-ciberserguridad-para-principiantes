@@ -19,10 +19,6 @@
    - 1.2 Qué es un algoritmo
 
 2. **Pensamiento computacional: La habilidad fundamental**
-   - 2.1 Descomposición
-   - 2.2 Reconocimiento de patrones
-   - 2.3 Abstracción
-   - 2.4 Diseño de algoritmos
 
 3. **Los tres bloques fundamentales de toda programación**
    - 3.1 Secuencia: El fundamento absoluto
@@ -111,19 +107,19 @@
 
 **La programación es el proceso de crear instrucciones que una computadora puede seguir para realizar tareas específicas.** Es como enseñarle a un asistente extremadamente obediente pero literal a hacer algo: necesitas ser preciso, claro y completo en cada instrucción. A diferencia de los humanos, las computadoras siguen las instrucciones exactamente como se las das, sin interpretar intenciones o llenar vacíos con sentido común. Este es el principio fundamental que debes entender antes de comenzar tu viaje en la programación.
 
-## Qué es programar y cómo piensan las computadoras
+## 1. Qué es programar y cómo piensan las computadoras
 
 Imagina que estás escribiendo una receta de cocina para alguien que nunca ha cocinado y que seguirá tus instrucciones al pie de la letra, sin ningún conocimiento previo. Si tu receta dice "agregar azúcar", esa persona no sabrá cuánta azúcar, ni de dónde sacarla, ni siquiera abrir el contenedor si no lo especificas. **Programar es exactamente esto: dar instrucciones tan detalladas y precisas que una máquina sin conocimiento previo pueda ejecutarlas correctamente.**
 
 Las computadoras piensan de manera fundamentalmente diferente a los humanos. Mientras nosotros podemos inferir, suponer y usar contexto, una computadora solo entiende instrucciones explícitas en un formato específico. **Piensa en binario** (ceros y unos) y ejecuta millones de operaciones simples por segundo, pero cada operación debe estar perfectamente definida. Su mayor fortaleza es la velocidad y precisión absoluta; su mayor limitación es la falta total de intuición o creatividad propia.
 
-### Qué es un programa
+### 1.1 Qué es un programa
 
 Un **programa** es un conjunto organizado de instrucciones escritas en un lenguaje que la computadora puede entender y ejecutar. Es como una partitura musical para un pianista: contiene todas las notas (instrucciones) en el orden correcto, con indicaciones de tempo y volumen (parámetros), y cuando se ejecuta correctamente, produce el resultado deseado. Todo el software que usas diariamente —desde tu navegador web hasta las aplicaciones de tu teléfono— son programas que alguien escribió, dándole instrucciones detalladas a la computadora sobre qué hacer en cada situación posible.
 
 Los programas pueden ser simples (como una calculadora que suma dos números) o extremadamente complejos (como un sistema operativo que gestiona miles de procesos simultáneamente), pero todos comparten la misma naturaleza: son secuencias de instrucciones lógicas que transforman entradas en salidas.
 
-### Qué es un algoritmo
+### 1.2 Qué es un algoritmo
 
 Un **algoritmo** es una secuencia finita y bien definida de pasos para resolver un problema o realizar una tarea. Es el concepto antes del código, la solución lógica antes de la implementación técnica. **Los algoritmos están en todas partes en tu vida cotidiana**, mucho antes de que existieran las computadoras.
 
@@ -131,7 +127,7 @@ Considera estos ejemplos familiares: el proceso de atarse los zapatos es un algo
 
 Un buen algoritmo tiene características específicas: **debe ser finito** (terminar en algún momento), **definido** (cada paso claro y sin ambigüedad), **efectivo** (cada paso debe ser realizable), y **debe producir un resultado** correcto para las entradas dadas. Por ejemplo, el algoritmo de Google para ordenar resultados de búsqueda procesa tu consulta, evalúa millones de páginas web según criterios específicos, y te presenta los resultados más relevantes en menos de un segundo.
 
-## Pensamiento computacional: La habilidad fundamental
+## 2. Pensamiento computacional: La habilidad fundamental
 
 Antes de escribir una sola línea de código, necesitas desarrollar **pensamiento computacional**, la habilidad de descomponer problemas complejos en pasos lógicos que puedan resolverse sistemáticamente. Esta habilidad es tan importante en programación que los expertos afirman que es más valiosa que conocer cualquier lenguaje específico. El pensamiento computacional se compone de cuatro pilares fundamentales.
 
@@ -143,11 +139,11 @@ Antes de escribir una sola línea de código, necesitas desarrollar **pensamient
 
 **Diseño de algoritmos** es crear una serie de pasos ordenados para resolver el problema, combinando los tres elementos anteriores. Has descompuesto el problema, reconocido patrones útiles y abstraído lo innecesario; ahora creas la secuencia lógica de pasos que llevará a la solución.
 
-## Los tres bloques fundamentales de toda programación
+## 3. Los tres bloques fundamentales de toda programación
 
 Existe un hecho empoderador que todo principiante debe conocer: **cualquier programa, sin importar cuán complejo sea, puede construirse usando solo tres elementos básicos**. Estos son secuencia, selección e iteración, y dominar estos tres conceptos te da la capacidad de crear cualquier algoritmo imaginable.
 
-### Secuencia: El fundamento absoluto
+### 3.1 Secuencia: El fundamento absoluto
 
 La **secuencia** es el concepto más fundamental en programación: las instrucciones se ejecutan una tras otra, en orden, de arriba hacia abajo. Es como seguir una receta línea por línea. La computadora lee la primera instrucción, la ejecuta completamente, luego pasa a la segunda, la ejecuta, y así sucesivamente. **No hay saltos, no hay simultaneidad (en programación básica), solo un paso después del otro.**
 
@@ -164,7 +160,7 @@ Imagina tu rutina matutina escrita como secuencia:
 
 Cada paso depende del anterior y debe completarse antes de continuar. Este es el flujo secuencial que las computadoras siguen naturalmente.
 
-### Selección: Tomar decisiones
+### 3.2 Selección: Tomar decisiones
 
 La **selección** permite que un programa tome decisiones y ejecute diferentes acciones dependiendo de las condiciones. Es el equivalente a "si... entonces... sino..." en el lenguaje natural. Los semáforos son el ejemplo perfecto: **si la luz es verde, avanza; si es roja, detente; si es amarilla, reduce velocidad.** El programa evalúa una condición y elige qué camino seguir.
 
@@ -172,7 +168,7 @@ En programación, esto se llama estructura condicional o estructura de decisión
 
 Las decisiones en programación siempre se basan en evaluar si algo es **verdadero o falso**. "¿El usuario ingresó un número?" Verdadero o falso. "¿La temperatura es mayor a 30 grados?" Verdadero o falso. Basándose en estas evaluaciones, el programa elige qué hacer.
 
-### Iteración: La repetición controlada
+### 3.3 Iteración: La repetición controlada
 
 La **iteración** es la capacidad de repetir un conjunto de instrucciones múltiples veces. Esto es lo que hace a las computadoras especialmente poderosas: pueden realizar la misma tarea miles o millones de veces sin cansarse, sin errores (si la lógica es correcta), y a velocidades imposibles para humanos.
 
@@ -180,7 +176,7 @@ Imagina que tienes una canasta de manzanas en el suelo y quieres contarlas. El a
 
 Hay dos tipos principales de iteración: bucles que repiten un número definido de veces ("repite esto 10 veces"), y bucles que continúan mientras se cumpla una condición ("repite mientras el usuario quiera continuar"). Ambos son fundamentales para automatizar tareas repetitivas, que es una de las razones principales por las que programamos.
 
-## Variables: Contenedores con nombres
+## 4. Variables: Contenedores con nombres
 
 Una **variable** es un espacio en la memoria de la computadora donde guardas información que puedes usar y modificar durante la ejecución de tu programa. Piensa en variables como **cajas etiquetadas** donde guardas cosas. La etiqueta es el nombre de la variable (por ejemplo, "edad" o "nombre_usuario"), y dentro de la caja está el valor (por ejemplo, 25 o "María").
 
@@ -190,35 +186,35 @@ Las variables tienen tres aspectos esenciales: un **nombre** (la etiqueta que us
 
 Durante la ejecución de un programa, el valor de una variable puede cambiar (de ahí su nombre "variable"). Puedes tener una variable llamada "temperatura" que comienza en 20, luego se actualiza a 25, después a 23, y así sucesivamente. El nombre permanece constante, pero el contenido varía según las necesidades del programa.
 
-## Tipos de datos: Diferentes clases de información
+## 5. Tipos de datos: Diferentes clases de información
 
 Las computadoras necesitan saber qué tipo de información están manejando porque diferentes tipos de datos se almacenan diferente en memoria y permiten diferentes operaciones. Es como tener **diferentes tipos de contenedores para diferentes propósitos**: usas un frasco para líquidos, una caja para objetos sólidos, una carpeta para documentos. Cada tipo de dato tiene su "contenedor" apropiado.
 
-### Números enteros
+### 5.1 Números enteros
 
 Los **números enteros** (integers en inglés, a menudo abreviado "int") representan números sin decimales: -2, -1, 0, 1, 2, 100, -500. Se usan para contar cosas que no se pueden dividir: número de estudiantes en una clase, días del mes, edad en años completos. No puedes tener 2.5 estudiantes, por eso usas enteros.
 
-### Números decimales
+### 5.2 Números decimales
 
 Los **números de punto flotante** (floats) representan números con decimales: 3.14, -0.5, 2.0, 100.99. Se llaman "punto flotante" porque el punto decimal puede "flotar" a diferentes posiciones. Estos se usan para mediciones precisas: temperatura (23.5 grados), precios (19.99), porcentajes (45.8%), distancias (3.7 kilómetros).
 
-### Texto
+### 5.3 Texto
 
 Las **cadenas de texto** (strings) representan texto: palabras, frases, oraciones completas. Pueden incluir letras, números, símbolos y espacios: "Hola mundo", "María García", "Calle 123", "correo@ejemplo.com". Aunque "123" puede parecer un número, si está en una cadena de texto, se trata como texto y no puedes hacer operaciones matemáticas con él directamente.
 
-### Valores de verdad
+### 5.4 Valores de verdad
 
 Los **booleanos** representan solo dos valores posibles: verdadero o falso (true/false en inglés). Son como un **interruptor de luz**: solo puede estar encendido o apagado, no hay término medio. Se usan constantemente en decisiones: "¿El usuario está conectado?" (verdadero/falso), "¿La contraseña es correcta?" (verdadero/falso), "¿El inventario está vacío?" (verdadero/falso).
 
-### Por qué importan los tipos
+### 5.5 ¿Por qué importan los tipos?
 
 Los tipos de datos son importantes porque determinan qué operaciones puedes realizar. Puedes sumar dos números (5 + 3 = 8), pero no puedes sumar un número con texto de la misma manera. Los tipos ayudan a prevenir errores: si un programa espera edad como número entero y recibes "veinte" como texto, debe alertar el error en lugar de causar comportamientos impredecibles.
 
-## Estructuras de control: Dirigiendo el flujo del programa
+## 6. Estructuras de control: Dirigiendo el flujo del programa
 
 Las **estructuras de control** determinan el orden en que se ejecutan las instrucciones de tu programa. Ya conociste los tres tipos fundamentales (secuencia, selección, iteración); ahora profundizaremos en cómo se implementan en la práctica.
 
-### Condicionales: El poder de decidir
+### 6.1 Condicionales: El poder de decidir
 
 Las **condicionales** permiten que tu programa tome diferentes caminos según las circunstancias. La estructura más básica es "si-entonces": **SI** se cumple cierta condición, **ENTONCES** ejecuta estas acciones. Por ejemplo: si la temperatura es mayor a 30 grados, entonces enciende el aire acondicionado.
 
@@ -226,7 +222,7 @@ Pero la vida real tiene múltiples opciones, no solo dos. Aquí entra "si-entonc
 
 Para situaciones más complejas con múltiples condiciones, usamos "si-sino si-sino": si temperatura mayor a 30, enciende aire; sino si temperatura menor a 15, enciende calefacción; sino, no hagas nada. Esto evalúa condiciones en orden hasta encontrar una verdadera, o llegar al final.
 
-### Bucles: Automatizando la repetición
+### 6.2 Bucles: Automatizando la repetición
 
 Los **bucles** repiten acciones automáticamente. Hay dos filosofías principales: bucles que repiten un número conocido de veces, y bucles que repiten mientras se cumpla una condición.
 
@@ -236,7 +232,7 @@ El **bucle "mientras"** continúa mientras una condición sea verdadera. Por eje
 
 Un error común en bucles es crear **bucles infinitos**: bucles cuya condición nunca se vuelve falsa, por lo que continúan para siempre. Es como una rutina de "mientras haya comida en el plato, come un bocado, agrega dos bocados más al plato": nunca terminarás de comer porque siempre agregas más de lo que consumes. Los bucles bien diseñados siempre progresan hacia su condición de salida.
 
-## Operadores lógicos: Construyendo condiciones complejas
+## 7. Operadores lógicos: Construyendo condiciones complejas
 
 Los **operadores lógicos** permiten combinar múltiples condiciones para crear decisiones más sofisticadas. Son las palabras conectoras del mundo de la programación: "y", "o", "no".
 
@@ -248,13 +244,13 @@ El operador **NO** (NOT) invierte una condición. "Si NO está lloviendo, salir 
 
 Estos operadores pueden combinarse en expresiones complejas: "Si (es fin de semana O es festivo) Y NO está lloviendo Y temperatura mayor a 20, ir al parque". La computadora evalúa cada parte metódicamente, combinando resultados según las reglas lógicas, hasta llegar a una respuesta final de verdadero o falso.
 
-### Operadores de comparación
+### 7.1 Operadores de comparación
 
 Antes de usar operadores lógicos, necesitas **operadores de comparación** para evaluar condiciones individuales. Estos son: igual a (==), diferente de (!=), mayor que (>), menor que (<), mayor o igual que (>=), menor o igual que (<=). Son exactamente lo que parecen: "temperatura > 30" pregunta "¿la temperatura es mayor que 30?" y devuelve verdadero o falso.
 
 Un error común es confundir asignación con comparación. En muchos lenguajes, un solo signo igual (=) significa **asignar un valor** a una variable: "edad = 25" pone el valor 25 en la variable edad. Dos signos iguales (==) significa **comparar** si dos cosas son iguales: "edad == 25" pregunta si edad es igual a 25, devolviendo verdadero o falso. Esta distinción es crucial.
 
-## Funciones: Empaquetando lógica reutilizable
+## 8. Funciones: Empaquetando lógica reutilizable
 
 Una **función** es un bloque de código con nombre que realiza una tarea específica y puede reutilizarse. Es como una **máquina especializada** o una **receta con nombre**: defines los pasos una vez, le pones un nombre, y luego puedes usar esa función múltiples veces simplemente llamándola por su nombre.
 
@@ -262,27 +258,27 @@ Imagina que programas constantemente necesitas calcular el área de un rectángu
 
 Las funciones tienen tres componentes principales: **nombre** (identificador único y descriptivo), **parámetros** (información que la función necesita para trabajar, como ingredientes de una receta), y **valor de retorno** (el resultado que la función produce y devuelve).
 
-### Parámetros y argumentos
+### 8.1 Parámetros y argumentos
 
 Los **parámetros** son los espacios reservados que defines cuando creas la función. Por ejemplo, tu función "calcular_area_rectangulo" necesita dos parámetros: largo y ancho. Son como ingredientes genéricos en una receta: "azúcar" y "harina", sin cantidades específicas aún.
 
 Los **argumentos** son los valores concretos que pasas cuando usas la función. Si llamas "calcular_area_rectangulo(5, 3)", los argumentos son 5 y 3: valores específicos para largo y ancho. Es como decir "ahora voy a usar 2 tazas de azúcar y 3 tazas de harina" cuando cocinas.
 
-### Valor de retorno
+### 8.2 Valor de retorno
 
 El **valor de retorno** es el resultado que la función produce. Siguiendo la analogía de recetas, es el **plato terminado**. Una función que calcula área podría devolver el número 15 (si largo era 5 y ancho era 3). Una función que verifica contraseñas podría devolver verdadero o falso. No todas las funciones devuelven valores; algunas simplemente realizan acciones como imprimir texto en pantalla.
 
-### Por qué las funciones son importantes
+### 8.3 Por qué las funciones son importantes
 
 Las funciones promueven **modularidad**: dividir un programa grande en partes manejables. También promueven **reutilización**: escribir código una vez y usarlo muchas veces. Facilitan **mantenimiento**: si necesitas cambiar cómo calculas el área, solo modificas la función, no cientos de lugares en tu código. Y mejoran **legibilidad**: un programa con funciones bien nombradas se lee casi como lenguaje natural.
 
-## Arrays y listas: Colecciones de datos
+## 9. Arrays y listas: Colecciones de datos
 
 Un **array o lista** es una colección ordenada de elementos del mismo tipo, todos agrupados bajo un solo nombre. Imagina una **fila de casilleros numerados**: cada casillero puede contener un elemento, y puedes acceder a cualquier casillero usando su número de posición.
 
 Sin listas, si quisieras guardar los nombres de 30 estudiantes, necesitarías 30 variables diferentes: estudiante1, estudiante2, estudiante3... estudiante30. Esto es inmanejable. Con una lista, tienes una sola variable "estudiantes" que contiene los 30 nombres, y accedes a cada uno por su posición: estudiantes[0], estudiantes[1], etc.
 
-### Posiciones y índices
+### 9.1 Posiciones y índices
 
 Las listas usan **índices** para identificar posiciones. La mayoría de los lenguajes de programación comienzan a contar desde 0, no desde 1. El primer elemento está en posición 0, el segundo en posición 1, el tercero en posición 2, y así sucesivamente. Esto confunde a principiantes al inicio, pero tiene razones técnicas relacionadas con cómo se almacena la información en memoria.
 
@@ -292,13 +288,13 @@ Si tienes una lista de frutas: ["manzana", "banana", "naranja", "uva"], entonces
 - frutas[2] = "naranja" (tercer elemento)
 - frutas[3] = "uva" (cuarto elemento)
 
-### Operaciones comunes con listas
+### 9.2 Operaciones comunes con listas
 
 Las listas permiten operaciones útiles: **agregar** elementos al final, **insertar** elementos en posiciones específicas, **eliminar** elementos, **buscar** si un elemento existe, **ordenar** los elementos, **contar** cuántos elementos hay. Estas operaciones hacen las listas increíblemente versátiles para manejar colecciones de datos.
 
 Las listas combinan perfectamente con bucles. Para procesar cada estudiante en la lista de 30, usas un bucle que recorre la lista desde la posición 0 hasta la 29, procesando cada nombre. Esto es mucho más elegante que escribir 30 líneas de código casi idénticas.
 
-## Pseudocódigo: Pensando antes de codificar
+## 10. Pseudocódigo: Pensando antes de codificar
 
 El **pseudocódigo** es una forma de escribir algoritmos usando lenguaje natural estructurado, sin preocuparse por la sintaxis de ningún lenguaje de programación específico. Es el puente entre tu idea y el código real. Piensa en pseudocódigo como **hacer el boceto de un dibujo antes de pintar el cuadro final**: planificas la composición, las proporciones y los elementos principales sin preocuparte aún por los detalles técnicos.
 
@@ -320,17 +316,17 @@ FIN
 
 Este pseudocódigo muestra claramente la lógica: comenzamos asumiendo que el primero es el mayor, luego comparamos cada número con nuestro candidato actual, y si encontramos uno mayor, lo actualizamos. Al final, tenemos el mayor. La lógica es clara incluso sin saber ningún lenguaje de programación.
 
-### Convenciones del pseudocódigo
+### 10.1 Convenciones del pseudocódigo
 
 Aunque el pseudocódigo no tiene reglas estrictas, hay convenciones útiles: usar **palabras clave en mayúsculas** (SI, ENTONCES, MIENTRAS, PARA) para distinguirlas del resto; usar **indentación** (sangría) para mostrar qué instrucciones están dentro de estructuras como bucles o condicionales; escribir en **lenguaje natural** pero manteniendo claridad y concisión; incluir **INICIO** y **FIN** para delimitar el algoritmo.
 
 El pseudocódigo es especialmente valioso cuando trabajas en equipo, porque cualquier miembro puede entender la lógica sin necesitar conocer el lenguaje de programación específico que usarán. También es excelente para comunicarte con personas no técnicas: pueden entender qué hará tu programa sin verse abrumados por sintaxis compleja.
 
-## Cómo funciona un programa: De código a ejecución
+## 11. Cómo funciona un programa: De código a ejecución
 
 Entender cómo un programa pasa de texto que escribes a acciones que la computadora ejecuta es fundamental para cualquier programador. Este proceso involucra varios conceptos clave que trabajan juntos.
 
-### Memoria: El espacio de trabajo de tu programa
+### 11.1 Memoria: El espacio de trabajo de tu programa
 
 La **memoria** de una computadora es como un enorme tablero de casilleros numerados donde se guarda toda la información que tu programa necesita. Cada casillero tiene una **dirección única** (un número) y puede almacenar un valor. Cuando creas una variable, la computadora reserva uno o más casilleros de memoria para esa variable, dependiendo de cuánto espacio necesite su tipo de dato.
 
@@ -338,23 +334,23 @@ Hay dos tipos principales de memoria que debes conocer. La **memoria RAM** (Rand
 
 El **almacenamiento permanente** (disco duro, SSD) es como un archivero: guarda información de forma permanente, incluso cuando la computadora está apagada. Es más lento de acceder que la RAM, pero mucho más grande y persistente. Cuando ejecutas un programa, se copia del almacenamiento permanente a la RAM, donde puede ejecutarse rápidamente.
 
-### Ejecución: Paso a paso
+### 11.2 Ejecución: Paso a paso
 
 Cuando ejecutas un programa, la computadora carga las instrucciones en memoria y comienza a procesarlas **una por una, de arriba hacia abajo, a menos que encuentre instrucciones de control de flujo** (condicionales o bucles) que cambien el orden. Este proceso es secuencial y predecible.
 
 La computadora mantiene un registro de **dónde está** en tu programa (qué línea está ejecutando) y **qué hay en cada variable** en cada momento. Es como seguir una receta: la computadora mantiene tu lugar en la página (línea actual), recuerda qué ingredientes has agregado (valores de variables), y sabe qué pasos has completado y cuáles faltan (estado del programa).
 
-### Entrada y salida
+### 11.3 Entrada y salida
 
 **Entrada** se refiere a cualquier información que el programa recibe del exterior: texto que el usuario escribe, archivos que el programa lee, datos de internet, clics del mouse, pulsaciones de teclado. **Salida** es cualquier información que el programa envía al exterior: texto mostrado en pantalla, archivos creados o modificados, sonidos reproducidos, imágenes dibujadas.
 
 Prácticamente todos los programas útiles involucran entrada y salida. Un programa que no recibe entrada ni produce salida no puede interactuar con el mundo y tiene utilidad limitada. Piensa en tu programa como una fábrica: recibe materias primas (entrada), las procesa según su lógica interna, y produce productos terminados (salida).
 
-## Compilación vs interpretación: Dos formas de ejecutar código
+## 12. Compilación vs interpretación: Dos formas de ejecutar código
 
 Los lenguajes de programación pueden ejecutarse de dos formas fundamentalmente diferentes, y entender la diferencia te ayuda a comprender mejor cómo funcionan las cosas detrás del escenario.
 
-### Compilación: Traducción completa anticipada
+### 12.1 Compilación: Traducción completa anticipada
 
 Los **lenguajes compilados** funcionan como traducir un libro completo de un idioma a otro antes de leerlo. Tomas todo tu código fuente, lo pasas por un programa especial llamado **compilador**, que lo traduce completamente a lenguaje de máquina (código que el procesador puede ejecutar directamente), y crea un archivo ejecutable. Luego ejecutas ese archivo traducido.
 
@@ -362,7 +358,7 @@ Los **lenguajes compilados** funcionan como traducir un libro completo de un idi
 
 **Desventajas**: Cada vez que cambias el código, debes recompilar todo. Si tu programa tiene un error, no lo descubres hasta que intentas compilar o ejecutar. El proceso de compilación puede tomar tiempo en proyectos grandes.
 
-### Interpretación: Traducción línea por línea
+### 12.2 Interpretación: Traducción línea por línea
 
 Los **lenguajes interpretados** funcionan como tener un traductor simultáneo. Tu código no se traduce por adelantado; en su lugar, un programa llamado **intérprete** lee tu código línea por línea, lo traduce a instrucciones de máquina y lo ejecuta inmediatamente, todo al mismo tiempo.
 
@@ -370,17 +366,17 @@ Los **lenguajes interpretados** funcionan como tener un traductor simultáneo. T
 
 **Desventajas**: Generalmente más lento que código compilado porque la traducción ocurre durante la ejecución. Necesitas el intérprete instalado para ejecutar el programa. Los errores en partes del código que no se ejecutan no se detectan hasta que esa parte se ejecuta.
 
-### Híbridos y realidad moderna
+### 12.3 Híbridos y realidad moderna
 
 Muchos lenguajes modernos usan enfoques híbridos. Por ejemplo, podrían compilar a un formato intermedio (no completamente lenguaje de máquina, pero tampoco código fuente original), que luego es interpretado o compilado "justo a tiempo" durante la ejecución. Esto combina algunas ventajas de ambos enfoques.
 
 Lo importante para principiantes no es memorizar qué lenguaje usa qué método, sino entender el concepto: **tu código debe traducirse a instrucciones que el procesador entienda, y esta traducción puede ocurrir toda de una vez (compilación) o gradualmente durante la ejecución (interpretación).**
 
-## Sintaxis vs semántica: La forma y el significado
+## 13. Sintaxis vs semántica: La forma y el significado
 
 Estos dos conceptos son fundamentales para entender los errores que encontrarás al programar y cómo resolverlos.
 
-### Sintaxis: Las reglas gramaticales
+### 13.1 Sintaxis: Las reglas gramaticales
 
 La **sintaxis** se refiere a las reglas sobre cómo escribir código correctamente en un lenguaje de programación: el orden de las palabras, la puntuación requerida, cómo estructurar las instrucciones. Es como la gramática en lenguaje humano: hay una forma correcta de construir oraciones.
 
@@ -388,7 +384,7 @@ Un **error de sintaxis** ocurre cuando escribes código que no sigue las reglas 
 
 Ejemplos comunes: olvidar cerrar paréntesis, usar el operador equivocado, escribir mal una palabra clave del lenguaje, olvidar declarar una variable antes de usarla. La buena noticia es que los errores de sintaxis son relativamente fáciles de encontrar y corregir porque el compilador/intérprete te dirá exactamente dónde está el problema.
 
-### Semántica: El significado lógico
+### 13.2 Semántica: El significado lógico
 
 La **semántica** se refiere al significado de tu código: qué hace realmente, cuál es su lógica. Un programa puede tener sintaxis perfecta pero semántica incorrecta: sigue todas las reglas gramaticales pero hace algo diferente de lo que pretendías.
 
@@ -396,21 +392,21 @@ Un **error semántico** o **error lógico** ocurre cuando tu código es sintáct
 
 Ejemplos: usar operador de suma cuando necesitabas resta, poner la condición incorrecta en un IF, iterar uno de más o uno de menos en un bucle (error "off-by-one"), actualizar la variable equivocada. Los errores semánticos son más difíciles de encontrar porque tu programa corre "exitosamente" pero produce resultados incorrectos.
 
-### La importancia de ambos
+### 13.3 La importancia de ambos
 
 Como programador, necesitas dominar ambos aspectos. La sintaxis se aprende con práctica y referencia a documentación: cada lenguaje tiene sus reglas específicas. La semántica requiere pensamiento lógico y entendimiento profundo del problema: debes saber no solo cómo escribir código, sino qué lógica necesitas para resolver tu problema. **Un maestro de sintaxis pero novato en semántica escribirá código que se ve bien pero no funciona. Un maestro de semántica pero novato en sintaxis tendrá ideas brillantes pero no podrá expresarlas.**
 
-## Debugging: El arte de encontrar y corregir errores
+## 14. Debugging: El arte de encontrar y corregir errores
 
 **Debugging** (depuración) es el proceso de identificar y corregir errores (bugs) en tu código. Este término tiene origen histórico: en los primeros días de las computadoras, un error fue causado literalmente por una polilla (bug en inglés) atrapada en el hardware. El nombre quedó para referirse a cualquier problema en software.
 
-### Por qué existen bugs
+### 14.1 Por qué existen bugs
 
 Los bugs existen porque los humanos cometemos errores al traducir ideas complejas a instrucciones precisas. A diferencia de la comunicación humana donde el contexto y la intuición llenan vacíos, las computadoras siguen instrucciones literalmente. Un pequeño error lógico o un descuido sintáctico puede causar comportamiento completamente inesperado.
 
 **Todos los programadores, sin excepción, escriben código con bugs.** La diferencia entre principiantes y expertos no es que los expertos no cometan errores (los cometen constantemente), sino que los expertos son mejores identificando, aislando y corrigiendo esos errores. El debugging no es señal de fracaso; es parte integral del proceso de programación.
 
-### Estrategias de debugging
+### 14.2 Estrategias de debugging
 
 El debugging efectivo es como ser un **detective investigando un crimen**. No adivinas aleatoriamente; sigues pistas, formulas hipótesis, las pruebas, y refinas tu entendimiento basado en evidencia.
 
@@ -422,27 +418,27 @@ El debugging efectivo es como ser un **detective investigando un crimen**. No ad
 
 **Experimentación sistemática**: Cambia una cosa a la vez y observa el resultado. Si cambias múltiples cosas simultáneamente y el problema desaparece (o cambia), no sabrás cuál cambio fue el relevante.
 
-### Herramientas de debugging
+### 14.3 Herramientas de debugging
 
 Los entornos de programación modernos incluyen **debuggers**: herramientas que te permiten pausar tu programa en puntos específicos (breakpoints), examinar el valor de todas las variables en ese momento, y ejecutar tu código línea por línea mientras observas qué pasa. Es como tener una máquina del tiempo que te permite pausar, retroceder y avanzar fotograma por fotograma a través de la ejecución de tu programa.
 
-## Paradigmas de programación: Diferentes filosofías para programar
+## 15. Paradigmas de programación: Diferentes filosofías para programar
 
 Un **paradigma de programación** es un estilo o filosofía sobre cómo estructurar y organizar tu código. Es como diferentes estilos arquitectónicos para construir edificios: puedes construir con madera, concreto o acero; estilo moderno, clásico o minimalista. El edificio cumple su función sin importar el estilo, pero cada enfoque tiene características, ventajas y casos de uso donde brilla.
 
-### Programación imperativa
+### 15.1 Programación imperativa
 
 La **programación imperativa** es dar órdenes específicas paso por paso a la computadora. Le dices exactamente qué hacer y en qué orden. Es como conducir un auto con transmisión manual: controlas cada aspecto (presionar clutch, cambiar marcha, soltar clutch, acelerar). La mayoría de los lenguajes populares soportan este paradigma y es el más intuitivo para principiantes porque refleja cómo pensamos en instrucciones secuenciales.
 
 Ejemplo conceptual: Para preparar café, especificas cada paso: llenar la cafetera con agua, agregar café molido, encender la cafetera, esperar 5 minutos, servir en taza.
 
-### Programación declarativa
+### 15.2 Programación declarativa
 
 La **programación declarativa** describe qué resultado quieres, no cómo lograrlo. Es como conducir un auto automático: indicas tu objetivo (Drive, Reverse, Park) y el sistema decide los detalles técnicos. Le dices a la computadora "dame todos los números pares de esta lista" sin especificar exactamente cómo iterar, comparar y filtrar.
 
 Ejemplo conceptual: Para preparar café, simplemente declaras "quiero una taza de café" y el sistema (en este caso, tal vez una máquina automática de café) maneja los detalles.
 
-### Programación orientada a objetos (OOP)
+### 15.3 Programación orientada a objetos (OOP)
 
 La **programación orientada a objetos** organiza código en "objetos" que combinan datos (propiedades) y comportamientos (métodos). Es como pensar en sustantivos y verbos del mundo real: un "automóvil" (objeto) tiene características como color, modelo, velocidad actual (propiedades) y puede realizar acciones como acelerar, frenar, girar (métodos).
 
@@ -450,35 +446,35 @@ La idea central es **encapsulación**: cada objeto es responsable de sus propios
 
 Conceptos clave incluyen **clases** (plantillas para crear objetos, como planos arquitectónicos), **objetos** (instancias específicas creadas de clases, como casas construidas de esos planos), **herencia** (crear clases especializadas basadas en clases más generales: Vehículo → Automóvil → Sedán), y **polimorfismo** (diferentes objetos respondiendo al mismo comando de formas apropiadas para cada uno).
 
-### Programación funcional
+### 15.4 Programación funcional
 
 La **programación funcional** trata la computación como evaluación de funciones matemáticas, evitando cambiar el estado de variables. Las funciones son "puras": dado el mismo input, siempre producen el mismo output sin efectos secundarios. Es como una línea de ensamblaje donde cada estación recibe algo, lo transforma y lo pasa a la siguiente estación, sin alterar nada fuera de su proceso.
 
 Ventajas: Código más predecible y fácil de probar porque funciones puras siempre se comportan igual. Más fácil paralelizar (ejecutar múltiples partes simultáneamente) porque no hay estado compartido que cause conflictos.
 
-### Cuál usar
+### 15.5 ¿Cuál usar?cc
 
 No hay "el mejor" paradigma universal. Cada uno brilla en diferentes contextos: OOP es excelente para modelar sistemas complejos con muchas entidades interrelacionadas (videojuegos, simulaciones, interfaces gráficas). Programación funcional es ideal para procesamiento de datos, transformaciones y operaciones matemáticas. Programación imperativa es intuitiva para scripts y automatización de tareas.
 
 Muchos lenguajes modernos son **multiparadigma**: soportan varios estilos, permitiéndote usar el enfoque más apropiado para cada parte de tu problema. Como principiante, no te preocupes demasiado por paradigmas; enfócate en fundamentos que aplican a todos. Con experiencia, naturalmente gravitarás hacia los estilos que mejor se ajusten a tus necesidades.
 
-## Buenas prácticas básicas: Escribiendo código de calidad
+## 16. Buenas prácticas básicas: Escribiendo código de calidad
 
 Escribir código que funciona es solo la mitad de la batalla. Escribir **código mantenible, legible y robusto** es lo que separa programadores aficionados de profesionales. Estas prácticas te ahorrarán incontables horas de frustración futura.
 
-### Nombres descriptivos
+### 16.1 Nombres descriptivos
 
 **Usa nombres que comuniquen intención claramente.** Una variable llamada "x" no dice nada; "precio_total" o "cantidad_estudiantes" explican perfectamente su propósito. Dentro de seis meses, cuando vuelvas a tu código, te lo agradecerás. Imagina leer código con nombres como "a", "b", "c", "temp", "dato1": sería un acertijo. Nombres descriptivos hacen tu código **auto-documentado**: el código mismo explica qué hace.
 
 Reglas básicas: las variables y funciones usan nombres con letras minúsculas y guiones bajos o estilo camelCase (primeraSegundaTercera). Las constantes (valores que nunca cambian) usan MAYÚSCULAS_CON_GUIONES. Los nombres de clases empiezan con Mayúscula. Pero más allá de convenciones técnicas, prioriza claridad sobre brevedad.
 
-### Comentarios y documentación
+### 16.2 Comentarios y documentación
 
 Los **comentarios** son notas en tu código que el compilador/intérprete ignora pero que los humanos leen. Explican el "por qué" detrás de decisiones, aclaran lógica compleja, o describen qué hace una sección de código. **No comentes lo obvio**: si tu código dice "sumar 1 al contador", no necesitas un comentario que diga "esto suma 1 al contador". En cambio, comenta el propósito: "incrementar contador porque el usuario completó el proceso".
 
 La **documentación** va más allá de comentarios simples. Incluye descripciones de funciones (qué parámetros reciben, qué devuelven, para qué sirven), guías de uso, explicaciones de arquitectura del sistema. La documentación es inversión: toma tiempo escribirla pero ahorra mucho más tiempo después cuando tú u otros necesitan entender o modificar el código.
 
-### Modularidad: Divide y vencerás
+### 16.3 Modularidad: Divide y vencerás
 
 **Modularidad** significa dividir tu programa en componentes pequeños, independientes y reutilizables. En lugar de un archivo gigante con 1000 líneas de código haciendo todo, tienes múltiples funciones, cada una haciendo una cosa específica muy bien, que se combinan para formar el sistema completo.
 
@@ -486,85 +482,85 @@ Beneficios: Cada módulo pequeño es más fácil de entender, probar y depurar. 
 
 Principio guía: **Cada función debe hacer una cosa y hacerla bien.** Si una función calcula impuestos y también envía emails y actualiza la base de datos y genera reportes, está haciendo demasiado. Divídela en funciones separadas, cada una con responsabilidad única y clara.
 
-### Manejo de errores
+### 16.4 Manejo de errores
 
 Los programas robustos anticipan que las cosas pueden salir mal y manejan errores graciosamente. **No asumas que todo saldrá perfecto.** El usuario podría ingresar texto cuando esperabas un número; el archivo que intentas leer podría no existir; la conexión a internet podría fallar a mitad de proceso.
 
 El código de calidad valida entradas (¿el usuario realmente ingresó un email válido?), maneja casos excepcionales (¿qué pasa si la lista está vacía?), y proporciona mensajes de error útiles (no "Error 4021", sino "No se pudo conectar al servidor. Verifica tu conexión a internet").
 
-### Simplicidad sobre complejidad
+### 16.5 Simplicidad sobre complejidad
 
 **El código más simple que resuelve el problema es generalmente el mejor código.** No intentes impresionar con código complicado y "elegante". El código complejo es más difícil de entender, más propenso a bugs, más difícil de mantener. La verdadera habilidad está en tomar problemas complejos y expresar soluciones claramente y simplemente.
 
 Como dijo un famoso programador: "Cualquiera puede escribir código que una computadora entienda. Los buenos programadores escriben código que los humanos entienden." Prioriza legibilidad. Tu código será leído muchas más veces de las que será escrito.
 
-## Resolución de problemas computacional: El corazón de programar
+## 17. Resolución de problemas computacional: El corazón de programar
 
 La programación no es realmente sobre aprender sintaxis o memorizar comandos. **Es sobre resolver problemas sistemáticamente usando pensamiento lógico.** La sintaxis puedes buscarla en documentación; el pensamiento lógico y estrategias de resolución de problemas son las habilidades fundamentales que te harán exitoso.
 
-### Entiende el problema completamente
+### 17.1 Entiende el problema completamente
 
 Antes de escribir una sola línea de código, asegúrate de entender perfectamente qué problema estás resolviendo. **¿Cuáles son las entradas? ¿Cuál es la salida deseada? ¿Qué reglas o restricciones aplican?** Muchos programas fallan porque el programador comenzó a codificar sin entender completamente el problema.
 
 Técnica útil: reformula el problema en tus propias palabras. Escribe ejemplos de entradas y sus salidas esperadas. Identifica casos especiales (¿qué si la entrada está vacía? ¿qué si es negativa?). Pregunta "¿por qué?" hasta llegar a la raíz del problema real.
 
-### Descompon en subproblemas
+### 17.2 Descompon en subproblemas
 
 Problemas grandes son abrumadores. **Divídelos en problemas más pequeños y manejables.** Si necesitas crear un sistema de biblioteca, no pienses en todo el sistema de una vez. Piensa: necesito agregar libros, buscar libros, prestar libros, devolver libros, generar reportes. Cada uno de estos es un subproblema que puedes abordar independientemente.
 
 Continúa descomponiendo: "agregar libros" requiere validar información del libro, verificar que no exista duplicado, asignar número de identificación, guardar en base de datos. Cada subproblema se convierte en una función o módulo, y eventualmente los conectas para formar el sistema completo.
 
-### Piensa en algoritmos, no código
+### 17.3 Piensa en algoritmos, no código
 
 Antes de escribir código, diseña tu algoritmo. **¿Cuál es la secuencia lógica de pasos?** Usa pseudocódigo, diagramas de flujo, o simplemente notas en lenguaje natural. Planifica tu estrategia: ¿necesitas buscar? ¿Necesitas ordenar? ¿Necesitas comparar múltiples elementos? ¿Hay decisiones que tomar? ¿Hay repeticiones?
 
 Ejemplo: problema de encontrar número más grande en lista. Algoritmo: asumir que el primero es el más grande, comparar cada otro número con él, si encuentras uno mayor actualiza tu candidato, al final de revisar todos tienes el mayor. Este pensamiento algorítmico es independiente de cualquier lenguaje de programación.
 
-### Empieza simple, itera después
+### 17.4 Empieza simple, itera después
 
 No intentes construir la solución perfecta y completa inmediatamente. **Empieza con la versión más simple que podría funcionar**, aunque sea básica. Hazla funcionar. Pruébala. Luego mejórala incrementalmente: agrega características, optimiza, maneja casos especiales.
 
 Este enfoque tiene ventajas psicológicas (motivación de ver progreso temprano) y prácticas (detectas problemas fundamentales antes de invertir mucho tiempo en características avanzadas). Es mejor tener un programa simple que funciona que un programa complejo que no funciona.
 
-### Prueba constantemente
+### 17.5 Prueba constantemente
 
 No esperes hasta terminar todo el programa para probarlo. **Prueba cada componente a medida que lo construyes.** Escribiste una función que suma dos números, pruébala inmediatamente con varios ejemplos: números positivos, negativos, cero, números grandes, números decimales. ¿Funciona en todos los casos? Excelente, continúa. ¿Falla en algún caso? Arréglalo ahora, mientras el código está fresco en tu mente.
 
 Las pruebas constantes previenen la acumulación de errores que se vuelven casi imposibles de rastrear en programas grandes. Es mucho más fácil encontrar un bug en 10 líneas de código recién escritas que en 1000 líneas escritas durante semanas.
 
-## Conceptos importantes del mundo de la programación
+## 18. Conceptos importantes del mundo de la programación
 
-### Abstracción
+### 18.1 Abstracción
 
 La **abstracción** es ocultar complejidad detrás de interfaces simples. Cuando conduces un auto, la abstracción te permite "acelerar" presionando un pedal sin necesitar entender la combustión interna, inyección de gasolina, transmisión de potencia. En programación, usas funciones y objetos que hacen cosas complejas internamente, pero tú solo necesitas saber cómo llamarlas, no cómo funcionan por dentro.
 
 Esto permite manejar complejidad en sistemas grandes. Puedes usar una función "enviar_email" sin entender los protocolos de internet subyacentes. Puedes trabajar con "guardar_archivo" sin conocer los detalles de sistemas de archivos. **La abstracción te permite pensar en términos de alto nivel sin ahogarte en detalles de bajo nivel.**
 
-### Encapsulación
+### 18.2 Encapsulación
 
 La **encapsulación** es empaquetar datos y las funciones que operan en esos datos juntos, y restringir acceso directo a algunos componentes. Es como un auto nuevamente: los componentes internos del motor están encapsulados (protegidos) bajo el capó. Interactúas con el auto a través de interfaces definidas (volante, pedales, botones), no manipulando cables y tubos directamente.
 
 Esto previene errores: si cualquiera pudiera cambiar cualquier valor en cualquier momento, sería caos. La encapsulación establece límites claros: esta parte del código es pública (puedes usarla), esta parte es privada (solo el objeto mismo la usa). Promueve **seguridad y mantenibilidad**.
 
-### Estado
+### 18.3 Estado
 
 El **estado** es la información que un programa mantiene en cualquier momento dado: valores actuales de todas las variables, posición en el flujo de ejecución, qué recursos están abiertos. Es como una fotografía instantánea del programa en un momento específico.
 
 Manejar estado es uno de los desafíos centrales de programación. Estado que cambia de formas inesperadas causa bugs. Estado compartido entre múltiples partes del programa causa conflictos. Los paradigmas de programación ofrecen diferentes filosofías sobre cómo manejar estado: OOP lo encapsula en objetos, programación funcional intenta minimizarlo, programación imperativa lo cambia explícitamente.
 
-### Recursión
+### 18.4 Recursión
 
 La **recursión** ocurre cuando una función se llama a sí misma. Es como muñecas rusas anidadas: una dentro de otra dentro de otra. La recursión es útil para problemas que naturalmente se dividen en versiones más pequeñas del mismo problema.
 
 Ejemplo conceptual: para buscar algo en un libro, podrías: revisar la página actual; si es la página correcta, terminar; si no, llamar "buscar en el resto del libro" (que es el mismo problema, solo que más pequeño). Eventualmente, o encuentras lo que buscas o te quedas sin páginas. La recursión requiere siempre una **condición de parada**: algo que eventualmente haga que las llamadas recursivas terminen, o tendrás llamadas infinitas que agotan memoria.
 
-### Bibliotecas y frameworks
+### 18.5 Bibliotecas y frameworks
 
 Una **biblioteca** es una colección de código pre-escrito que puedes usar en tus programas. Es como tener una caja de herramientas: no fabricas cada herramienta desde cero, usas herramientas existentes para construir más rápido y mejor. Bibliotecas existen para casi todo: procesamiento de imágenes, operaciones matemáticas complejas, comunicación por red, manipulación de fechas.
 
 Un **framework** es más estructurado: proporciona una arquitectura completa sobre la cual construyes tu aplicación. Es la diferencia entre una caja de herramientas (biblioteca) y un andamio completo con estructura (framework). Los frameworks dictan cómo organizas tu código, mientras las bibliotecas simplemente ofrecen funcionalidad que puedes usar opcionalmente.
 
-### Eficiencia y complejidad
+### 18.6 Eficiencia y complejidad
 
 No todos los algoritmos que resuelven un problema son iguales en términos de eficiencia. Algunos son rápidos con pocas entradas pero lentos con muchas; otros son consistentemente eficientes. **La complejidad computacional** mide cuánto tiempo y memoria necesita un algoritmo según el tamaño de la entrada.
 
